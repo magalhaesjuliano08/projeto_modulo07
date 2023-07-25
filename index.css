@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 80px auto;
+  max-width: 640px;
+  width: 100%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="number"] {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;  
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;  
+}
+
+#mensagem {
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 3px;
+  width: 250px;
+  text-align: center;
+  margin: 50px auto 50px 275px;
+}
+
+.mensagem-positiva {
+  background-color: #75c775;
+}
+
+.mensagem-negativa {
+  background-color: #f57373;
+}
